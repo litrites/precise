@@ -1,0 +1,146 @@
+.sd1{
+    background: url(../../media/auth/auth-img.jpg);
+    background-size: cover;
+    background-position: right;
+    height:100vh;
+}
+
+.sd2{
+   height:100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+} 
+
+.sd2-d1-i1{
+ width: 250px;   
+}
+
+/* customform */
+
+.form-container {
+    width: 60%;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    color: rgba(243, 244, 246, 1);
+  }
+
+ 
+  
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+  
+  .form {
+    margin-top: 1.5rem;
+  }
+  
+  .input-group {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .input-group label {
+    display: block;
+    color: rgb(57, 57, 57);
+    margin-bottom: 4px;
+    margin-top: 10px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 194, 194);
+    outline: 0;
+    padding: 0.75rem 1rem;
+    color: rgb(48, 48, 48);
+  }
+  
+  .input-group input:focus {
+    border-color: #C56E33;
+  }
+  
+  .forgot {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: black;
+    margin: 8px 0 14px 0;
+  }
+  
+  .forgot a,.signup a {
+    color: #C56E33;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot a:hover, .signup a:hover {
+    text-decoration: underline #C56E33;
+  }
+  
+  .sign {
+    display: block;
+    width: 100%;
+    background-color: #C56E33;
+    padding: 0.75rem;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .social-message {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgba(55, 65, 81, 1);
+  }
+  
+  .social-message .message {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(156, 163, 175, 1);
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons .icon {
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+  }
+  
+  .social-icons .icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: #fff;
+  }
+  
+  .signup {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+  }
+  
